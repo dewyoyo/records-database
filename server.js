@@ -5,7 +5,7 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 
 var app = express();
-var PORT = process.env.PORT;
+var PORT = process.env.PORT || 3000;
 
 
 
@@ -55,3 +55,4 @@ db.sequelize.sync({ force: true }).then(function() {
 });
 
 module.exports = app;
+ 
