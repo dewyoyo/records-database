@@ -1,0 +1,37 @@
+    <!-- HEADER + SEARCH BAR -->
+    <div class="row">
+        <div id="docviewer">
+            <div>
+                <div>
+                    <h2 id="tableTitle">Records Library</h2>
+                </div>
+
+               <!-- TABLE -->
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Source</th>
+                            <th>Document Name</th>
+                            <th>Document Date</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                            <th>View</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each documents}}
+                        <tr>
+                            <td>{{this.source}}</td>
+                            <td>{{this.document_name}}</td>
+                            <td>{{this.docdate}}</td>
+                            <td>{{this.category}}</td>
+                            <td>{{this.description}}</td>
+                            <td><a href="{{this.image}}" class="btn waves-effect waves-light" target="_blank">View Document</a></td>
+                        </tr>
+                        {{/each}}
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>

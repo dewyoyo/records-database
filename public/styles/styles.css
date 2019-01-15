@@ -1,0 +1,99 @@
+/* ***COLOR PALATTE***
+
+MAIN HEADER/FOOTER {
+    #f8f8f6
+    #fff
+    whitesmoke
+    hsl(60,12,96)
+    rgb(248,248,246)
+}
+
+BUTTONS {
+    #6bbaca
+    #7cd
+    mediumaquamarine
+    hsl(190,47,60)
+    rgb(107,186,202)
+}
+
+SECONDARY HEADER/POP UP HEADER (DARK){
+    #435557
+    #455
+    darkslategray
+    hsl(186,12,30)
+    rgb(67,85,87)
+} */
+
+/* ***END COLOR PALATTE*** */
+
+
+
+/* TABLE STYLING */
+
+#tableTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+  
+body, #dataTable,
+#dataTable_info,
+.paginate_button,
+#dataTable_length,
+#dataTable_filter > label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+  
+th {
+    text-align: left;
+}
+  
+select {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.container{
+    height: 700px;
+    width: 1000px;
+}
+
+
+#table {
+    border: black 1px solid;
+    height: 530px;
+
+}
+
+#header{
+    background-color: #f8f8f6;
+    box-shadow: none;
+    height: 45px;
+}
+
+.container {
+    padding-top: 15px
+}
+
+.btn {
+    background-color:  #6bbaca;
+    color: white;
+}
+
+.btn:hover,
+.btn-floating:hover {
+    background-color: #435557;
+}
+
+#createForm {
+    margin-top: 4px;
+}
+
+a {
+    color: white;
+}
+
+#data-welcome
+,#data-login
+,#data-signup {
+    color: blue;
+}

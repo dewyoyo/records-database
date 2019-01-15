@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Golden Pony Document Library</title>
+
+    <!-- Materialize CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Font for Global Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <!-- Datatables Plugin -->
+    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+        media="screen, projection" />
+
+    <!-- IMPORT CUSTOM STYLES -->
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" media="screen, projection" />
+
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12" id="header">
+                <div>
+                    <a class="waves-effect waves-light btn-small right hide-on-med-and-down createForm">Submit Document</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12" id="viewer">
+                {{{ body }}}
+            </div>
+        </div>
+    </div>
+
+    <!-- JQUERY SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- DATATABLE PLUGIN -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+
+    <!-- SOURCE TABLE JS -->
+    <script type="text/javascript" src="/js/frontEnd.js"></script>
+    <script type="text/javascript" src="/js/categories.js"></script>
+    <script type="text/javascript" src="/js/welcome.js"></script>
+</body>
+
+</html>
